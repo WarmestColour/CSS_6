@@ -1,0 +1,69 @@
+html {
+    padding: 3%;
+    background-color: #4f3e82;
+}
+
+.floating {
+    animation: MoveUpDown 2s linear infinite;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+@keyframes MoveUpDown {
+
+    0%,
+    100% {
+        top: 0;
+    }
+
+    50% {
+        top: 5px;
+    }
+}
+
+h1 {
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 3.5vw;
+    text-align: center;
+    color: #f5f7fa;
+}
+
+.half {
+    float: left;
+    width: 46%;
+    margin: 2%;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    height: 20vw;
+    max-height: 280px;
+}
+
+.right {
+    float: right;
+    margin: 0 0 1% 4%;
+
+}
+
+.left {
+    float: left;
+    margin: 0 4% 1% 0;
+
+}
+
+p {
+    text-align: justify;
+    color: #f5f7fa;
+    
+}
+
+.source {
+    text-align: right;
+}
